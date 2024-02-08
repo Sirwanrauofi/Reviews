@@ -1,0 +1,96 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.review-container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 30px;
+    color: #333;
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+.review-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviewer-name {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+.review-content {
+    color: #666;
+    font-size: 16px;
+    max-width: 50rem;
+    height: 1rem;
+    overflow: hidden;
+    
+}
+
+.expanded {
+height: 10rem;
+color: #666;
+font-size: 16px;
+max-width: 50rem;
+overflow: hidden;
+}
+
+
+.navigation-buttons {
+    margin-top: 20px;
+}
+
+.nav-button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #ccc;
+}
+
+.read-more {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
